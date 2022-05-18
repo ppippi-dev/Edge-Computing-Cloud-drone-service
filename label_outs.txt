@@ -1,0 +1,1023 @@
+Opening in BLOCKING MODE 
+
+Using winsys: x11 
+gstnvtracker: Loading low-level lib at /opt/nvidia/deepstream/deepstream-6.0/lib/libnvds_nvmultiobjecttracker.so
+gstnvtracker: Batch processing is ON
+gstnvtracker: Past frame output is ON
+[NvMultiObjectTracker] Initialized
+0:00:11.808802993 [334m15885[00m      0x959ae60 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:638:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::deserializeEngineAndBackend() <nvdsinfer_context_impl.cpp:1900> [UID = 1]: deserialized trt engine from :/home/cow/Desktop/opt/nvidia/deepstream/deepstream-6.0/sources/objectDetector_Yolo/yolov4_float32.engine
+0:00:11.810284063 [334m15885[00m      0x959ae60 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:638:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::generateBackendContext() <nvdsinfer_context_impl.cpp:2004> [UID = 1]: Use deserialized engine model: /home/cow/Desktop/opt/nvidia/deepstream/deepstream-6.0/sources/objectDetector_Yolo/yolov4_float32.engine
+0:00:11.873453833 [334m15885[00m      0x959ae60 [36mINFO   [00m [00m             nvinfer gstnvinfer_impl.cpp:313:notifyLoadModelStatus:<primary_gie>[00m [UID 1]: Load new model:/home/cow/Desktop/opt/nvidia/deepstream/deepstream-6.0/sources/objectDetector_Yolo/pgie_yolov4_tao_config.txt sucessfully
+WARNING: [TRT]: Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+INFO: [FullDims Engine Info]: layers num: 5
+0   INPUT  kFLOAT Input           3x416x416       min: 1x3x416x416     opt: 4x3x416x416     Max: 16x3x416x416    
+1   OUTPUT kINT32 BatchedNMS      1               min: 0               opt: 0               Max: 0               
+2   OUTPUT kFLOAT BatchedNMS_1    200x4           min: 0               opt: 0               Max: 0               
+3   OUTPUT kFLOAT BatchedNMS_2    200             min: 0               opt: 0               Max: 0               
+4   OUTPUT kFLOAT BatchedNMS_3    200             min: 0               opt: 0               Max: 0               
+
+
+Runtime commands:
+	h: Print this help
+	q: Quit
+
+	p: Pause
+	r: Resume
+
+NOTE: To expand a source in the 2D tiled display and view object details, left-click on the source.
+      To go back to the tiled display, right-click anywhere on the window.
+
+
+**PERF:  FPS 0 (Avg)	
+**PERF:  0.00 (0.00)	
+** INFO: <bus_callback:194>: Pipeline ready
+
+
+
+
+NvMMLiteOpen : Block : BlockType = 261 
+NVMEDIA: Reading vendor.tegra.display-size : status: 6 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+
+
+
+
+** INFO: <bus_callback:180>: Pipeline running
+
+NvMMLiteOpen : Block : BlockType = 4 
+===== NVMEDIA: NVENC =====
+NvMMLiteBlockCreate : Block : BlockType = 4 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+H264: Profile = 66, Level = 0 
+
+NVMEDIA_ENC: bBlitMode is set to TRUE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+**PERF:  25.10 (24.73)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:09 2022 left: 155.185 top: 200.071 width: 7.57823 height: 11.496
+
+
+
+D-Tue Apr 12 22:13:09 2022 left: 153.844 top: 200.588 width: 7.96509 height: 10.03
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 153.799 top: 201.107 width: 8.16447 height: 10.5064
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 153.836 top: 204.031 width: 7.39209 height: 9.68082
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 154.767 top: 203.764 width: 7.29071 height: 11.7517
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 154.842 top: 204.444 width: 6.88217 height: 11.1402
+
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 154.911 top: 205.064 width: 6.56432 height: 10.6416
+
+
+D-Tue Apr 12 22:13:10 2022 left: 154.394 top: 205.541 width: 6.25594 height: 11.6684
+
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 154.786 top: 206.032 width: 6.00139 height: 11.1281
+
+
+
+D-Tue Apr 12 22:13:10 2022 left: 154.687 top: 207.909 width: 5.89957 height: 10.1708
+
+
+
+D-Tue Apr 12 22:13:11 2022 left: 154.078 top: 208.727 width: 6.91974 height: 9.21486
+
+
+
+
+
+D-Tue Apr 12 22:13:11 2022 left: 153.546 top: 209.477 width: 6.47758 height: 10.3487
+
+
+
+D-Tue Apr 12 22:13:11 2022 left: 153.366 top: 209.854 width: 6.55212 height: 10.6002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**PERF:  25.79 (25.66)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**PERF:  26.21 (25.91)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:18 2022 left: 152.111 top: 200.96 width: 6.77458 height: 10.7843
+D-Tue Apr 12 22:13:18 2022 left: 148.872 top: 200.414 width: 6.16078 height: 11.4008
+D-Tue Apr 12 22:13:18 2022 left: 154.309 top: 203.788 width: 6.16583 height: 11.7878
+
+
+
+D-Tue Apr 12 22:13:18 2022 left: 146.961 top: 206.184 width: 12.0296 height: 10.3817
+D-Tue Apr 12 22:13:18 2022 left: 146.176 top: 204.451 width: 6.62556 height: 8.94504
+
+
+
+D-Tue Apr 12 22:13:18 2022 left: 174.891 top: 201.118 width: 7.54446 height: 10.9608
+D-Tue Apr 12 22:13:18 2022 left: 145.398 top: 207.517 width: 9.75517 height: 10.5428
+
+
+D-Tue Apr 12 22:13:18 2022 left: 173.96 top: 205.132 width: 6.37711 height: 10.9184
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:20 2022 left: 154.572 top: 204.006 width: 7.96552 height: 13.3309
+
+
+
+D-Tue Apr 12 22:13:20 2022 left: 152.801 top: 209.809 width: 8.12125 height: 11.7131
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:22 2022 left: 191.038 top: 201.841 width: 7.70387 height: 11.4892
+
+
+
+D-Tue Apr 12 22:13:22 2022 left: 190.662 top: 206.646 width: 8.13837 height: 10.627
+D-Tue Apr 12 22:13:22 2022 left: 181.038 top: 203.37 width: 7.76912 height: 10.4348
+
+
+**PERF:  26.43 (26.00)	
+
+D-Tue Apr 12 22:13:22 2022 left: 181.069 top: 206.295 width: 7.25743 height: 11.6413
+D-Tue Apr 12 22:13:22 2022 left: 190.31 top: 209.03 width: 7.48087 height: 11.2567
+D-Tue Apr 12 22:13:22 2022 left: 184.108 top: 207.49 width: 7.94218 height: 10.1872
+
+
+
+D-Tue Apr 12 22:13:22 2022 left: 179.821 top: 209.949 width: 7.97607 height: 11.6654
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:23 2022 left: 206.521 top: 201.782 width: 6.51706 height: 9.80655
+
+
+
+D-Tue Apr 12 22:13:23 2022 left: 207.144 top: 203.612 width: 6.27162 height: 11.4537
+
+
+
+D-Tue Apr 12 22:13:23 2022 left: 205.988 top: 204.666 width: 6.84163 height: 14.6016
+
+
+
+D-Tue Apr 12 22:13:23 2022 left: 203.514 top: 205.771 width: 8.60974 height: 13.2158
+D-Tue Apr 12 22:13:23 2022 left: 205.421 top: 209.955 width: 6.78743 height: 13.0778
+
+
+
+D-Tue Apr 12 22:13:23 2022 left: 202.455 top: 208.653 width: 8.77551 height: 13.4673
+D-Tue Apr 12 22:13:23 2022 left: 201.657 top: 203.413 width: 7.6082 height: 11.1109
+
+
+
+D-Tue Apr 12 22:13:24 2022 left: 200.515 top: 206.883 width: 8.7778 height: 13.1605
+
+
+D-Tue Apr 12 22:13:24 2022 left: 201.279 top: 209.679 width: 7.93323 height: 12.1679
+
+
+
+D-Tue Apr 12 22:13:24 2022 left: 198.983 top: 211.551 width: 8.42953 height: 11.6236
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:24 2022 left: 192.74 top: 203.117 width: 7.09492 height: 10.4804
+
+
+
+D-Tue Apr 12 22:13:24 2022 left: 192.637 top: 206.477 width: 6.2691 height: 8.91864
+
+
+D-Tue Apr 12 22:13:24 2022 left: 192.403 top: 209.83 width: 5.95988 height: 11.4437
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:26 2022 left: 199.786 top: 200.638 width: 7.95178 height: 11.0191
+
+
+
+D-Tue Apr 12 22:13:26 2022 left: 200.063 top: 204.134 width: 8.5997 height: 11.8944
+
+
+
+D-Tue Apr 12 22:13:26 2022 left: 200.221 top: 207.93 width: 7.77759 height: 10.9122
+
+
+
+
+
+
+
+
+
+
+
+
+**PERF:  26.17 (26.10)	
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:27 2022 left: 174.121 top: 204.549 width: 5.1721 height: 13.2768
+
+
+
+D-Tue Apr 12 22:13:28 2022 left: 171.58 top: 208.218 width: 7.74799 height: 10.9951
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:30 2022 left: 165.03 top: 202.081 width: 8.1044 height: 11.8831
+D-Tue Apr 12 22:13:30 2022 left: 169.456 top: 202.607 width: 6.30128 height: 8.69725
+D-Tue Apr 12 22:13:30 2022 left: 167.921 top: 204.038 width: 6.12086 height: 10.184
+
+
+
+D-Tue Apr 12 22:13:30 2022 left: 165.633 top: 204.903 width: 9.21054 height: 14.1507
+
+
+
+
+
+D-Tue Apr 12 22:13:30 2022 left: 161.778 top: 209.751 width: 10.1296 height: 13.9597
+
+
+
+D-Tue Apr 12 22:13:30 2022 left: 161.534 top: 211.078 width: 10.6211 height: 16.7122
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**PERF:  26.06 (26.04)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:33 2022 left: 316.762 top: 206.073 width: 7.82745 height: 10.848
+D-Tue Apr 12 22:13:33 2022 left: 313.539 top: 204.694 width: 9.54703 height: 10.6806
+
+
+
+D-Tue Apr 12 22:13:34 2022 left: 317.807 top: 208.697 width: 9.19992 height: 11.0073
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:34 2022 left: 168.377 top: 207.46 width: 4.52776 height: 9.44647
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:35 2022 left: 146.948 top: 204.615 width: 7.61951 height: 10.7253
+
+
+
+D-Tue Apr 12 22:13:35 2022 left: 146.346 top: 207.351 width: 7.35069 height: 11.1597
+
+
+
+D-Tue Apr 12 22:13:35 2022 left: 324.163 top: 200.306 width: 12.8381 height: 14.848
+D-Tue Apr 12 22:13:35 2022 left: 146.413 top: 209.984 width: 6.96065 height: 12.4932
+
+
+
+D-Tue Apr 12 22:13:35 2022 left: 323.058 top: 205.041 width: 13.7463 height: 11.7288
+D-Tue Apr 12 22:13:35 2022 left: 331.528 top: 205.422 width: 10.2409 height: 11.5814
+D-Tue Apr 12 22:13:35 2022 left: 145.682 top: 213.113 width: 6.45596 height: 13.1185
+
+
+D-Tue Apr 12 22:13:35 2022 left: 333.589 top: 208.321 width: 11.2084 height: 10.7661
+
+
+
+D-Tue Apr 12 22:13:35 2022 left: 332.164 top: 211.015 width: 14.9889 height: 13.8322
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:36 2022 left: 163.457 top: 204.094 width: 6.03384 height: 11.1035
+D-Tue Apr 12 22:13:36 2022 left: 163.098 top: 200.558 width: 7.16638 height: 11.4333
+
+
+D-Tue Apr 12 22:13:36 2022 left: 185.318 top: 201.06 width: 7.62758 height: 11.9845
+
+
+
+D-Tue Apr 12 22:13:36 2022 left: 184.273 top: 205.317 width: 8.30219 height: 12.1718
+D-Tue Apr 12 22:13:36 2022 left: 206.453 top: 200.603 width: 7.97881 height: 10.9594
+
+
+
+D-Tue Apr 12 22:13:36 2022 left: 207.202 top: 207 width: 7.18434 height: 11.3158
+D-Tue Apr 12 22:13:36 2022 left: 184.036 top: 209.025 width: 9.09488 height: 12.0919
+
+
+
+D-Tue Apr 12 22:13:36 2022 left: 207.067 top: 210.347 width: 6.46413 height: 12.6706
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:37 2022 left: 221.302 top: 200.683 width: 7.60176 height: 11.0931
+
+
+
+D-Tue Apr 12 22:13:37 2022 left: 222.004 top: 203.619 width: 7.17413 height: 11.6484
+
+
+
+D-Tue Apr 12 22:13:37 2022 left: 222.185 top: 207.017 width: 6.78113 height: 11.3168
+
+
+
+D-Tue Apr 12 22:13:37 2022 left: 221.564 top: 210.443 width: 7.58678 height: 11.6041
+
+
+
+**PERF:  25.73 (26.03)	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D-Tue Apr 12 22:13:38 2022 left: 222.993 top: 201.793 width: 6.44913 height: 10.0068
+
+
+
+** INFO: <bus_callback:217>: Received EOS. Exiting ...
+
+Quitting
+[NvMultiObjectTracker] De-initialized
+App run successful
