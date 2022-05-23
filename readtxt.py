@@ -1,31 +1,37 @@
 import boto3
 import os
+import requests
 
+requests.get("https://sqs.ap-northeast-2.amazonaws.com/996145069080/from-edge", verify=False)
 os.environ['AWS_PROFILE'] = "Profile1"
 
 sqs = boto3.client('sqs', region_name='ap-northeast-2')
-queue_url = "https://sqs.ap-northeast-2.amazonaws.com/996145069080/edge_data"
+queue_url = "https://sqs.ap-northeast-2.amazonaws.com/996145069080/from-edge"
 
-def send_message(message, prev_line):
-    # 중복데이터 확인여부 필요, 중복데이터인 경우 전송 x
-    if message == prev_line:
+prev_x_line = ""
+
+def send_message(message):
+    global prev_line
+
+    if prev_line == message:
         pass
     else:
         response = sqs.send_message(QueueUrl=queue_url,
                     MessageBody=message)
-        print(response)
-        prev_line = message
-    return prev_line
+        prev_line=message
+
 c = 0
 file = open("./label_outs.txt","r")
 line = ""
 
-prev_line = ""
-while line != "App run successful\n" and c < 10:
+while line != "App run successful\n" and c < 1200:
     line = file.readline().rstrip('\n')
     if len(line) > 1:
         if line[0] == 'D':
-            prev_line = send_message(line[2:], prev_line)
-            c+=1
+            try:
+                send_message(line[2:])
+            except:
+                c+=1
+                pass
 
 file.close()
