@@ -2,6 +2,14 @@
 
 <br>
 
+## 앱서비스 
+
+깃헙 레파지토리 : https://github.com/Sejong-Talk-With/Capstone
+
+이후 사진 추가 예정
+
+<br>
+
 ## 서비스 구성도
 
 <img src="/service_stream.png">
