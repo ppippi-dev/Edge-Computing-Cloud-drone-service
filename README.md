@@ -1,10 +1,8 @@
 # Edge Computing 및 Cloud Computing을 이용한 인구 밀집도 분석 서비스
 
-<img src="/test.gif">
-
-![Alt Text](/test.gif)
-
 <br>
+
+![](test.gif)
 
 ## 앱서비스 
 
