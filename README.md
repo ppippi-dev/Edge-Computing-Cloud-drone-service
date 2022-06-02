@@ -2,7 +2,7 @@
 
 <br>
 
-![](test.gif)
+![](test1.gif)
 
 ## 앱서비스 
 
